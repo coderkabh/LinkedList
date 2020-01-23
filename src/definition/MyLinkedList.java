@@ -10,7 +10,7 @@ import ADT.LinkedListADT;
 
 public class MyLinkedList<E> implements LinkedListADT<E> {
 
-    private static class Node {
+    private static class Node<E> {
 
     }
 
