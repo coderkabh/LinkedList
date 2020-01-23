@@ -1,4 +1,5 @@
 package ADT;
 
-public interface LinkedListADT {
+public interface LinkedListADT<E> {
+
 }
