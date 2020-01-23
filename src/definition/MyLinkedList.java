@@ -23,11 +23,11 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
             this.next = next;
         }
 
-        public E getData() {
+        private E getData() {
             return data;
         }
 
-        public Node<E> getNext() {
+        private Node<E> getNext() {
             return next;
         }
     }
