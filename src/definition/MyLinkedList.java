@@ -6,5 +6,6 @@
  */
 package definition;
 
-public class MyLinkedList {
+public class MyLinkedList<E> {
+
 }
