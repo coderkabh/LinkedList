@@ -10,6 +10,9 @@ import ADT.LinkedListADT;
 
 public class MyLinkedList<E> implements LinkedListADT<E> {
 
+    private Node<E> head = null;
+    private int size = 0;
+
     private static class Node<E> {
         private E data;
         private Node<E> next;
@@ -30,6 +33,11 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
         private Node<E> getNext() {
             return next;
         }
+    }
+
+    private void addFirst(E item) {
+        head = new Node<>(item, head);
+        size++;
     }
 
     @Override
