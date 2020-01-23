@@ -6,6 +6,13 @@
  */
 package definition;
 
-public class MyLinkedList<E> {
+import ADT.LinkedListADT;
 
+public class MyLinkedList<E> implements LinkedListADT<E> {
+
+
+    @Override
+    public void add(int index, Object item) {
+
+    }
 }
